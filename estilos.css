@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(238, 231, 231, 0.795);
+} 
+
+h1, h5{
+    text-align: justify;
+    text-justify: inter-word;     
+    
+}
+.imagen{
+    float: left;
+}
+
+.destacado {
+    margin-left: 2em;
+}
+
+.par{
+    text-align: justify;    
+    
+}
+
+.tachado {
+    text-decoration: line-through;
+}
