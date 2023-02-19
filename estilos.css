@@ -1,25 +1,89 @@
 body{
+    font-family: 'Playfair Display';
     background-color: rgba(238, 231, 231, 0.795);
 } 
 
-h1, h5{
+.logo{
+    width: 50px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+}
+article{
+    border-radius: 2rem;
+}
+h1, h5, h6{
     text-align: justify;
-    text-justify: inter-word;     
-    
+    text-justify: inter-word; 
+}
+aside{
+    text-align: justify;
+    text-justify: inter-word; 
 }
 .imagen{
     float: left;
 }
-
+.boton{
+    float: left;
+    margin-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.flechas2{
+    float: right;
+}
 .destacado {
     margin-left: 2em;
 }
-
 .par{
     text-align: justify;    
     
 }
-
 .tachado {
     text-decoration: line-through;
+}
+.cara{
+    display:grid;
+    float: left; 
+    width: 80px;
+    border-radius: 3rem;
+    margin: 1rem;
+}
+
+
+.buttonIn {
+    margin-left: 16rem;    
+    float: center;
+    height: 110px;
+    width: 550px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    width: 35rem; 
+    height: 3rem; 
+    border-radius: 10px; 
+}
+  
+.botoN{
+    padding-top: 4px;
+    position: absolute;        
+    border-radius: 6px;
+    left: 32rem;
+    z-index: 2;
+    border: none;
+    top: 7px;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);    
+    background-color: #ddad28ab;
 }
